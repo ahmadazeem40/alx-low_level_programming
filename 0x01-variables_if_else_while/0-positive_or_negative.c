@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
  * main - determine if integer is positive or negative or zero
  *
- * Return : zero
+ * Return: zero
  */
 int main(void)
 {
