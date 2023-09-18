@@ -1,4 +1,3 @@
-void print_rev(char *s);
 #include "main.h"
 
 /**
