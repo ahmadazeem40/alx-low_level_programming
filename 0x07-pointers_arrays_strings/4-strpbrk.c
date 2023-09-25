@@ -6,7 +6,7 @@
   * @accept: accept
   * Return: pointer to the byte in s that matches one of the bytes in accept
   */
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
