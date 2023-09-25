@@ -8,7 +8,7 @@
   */
 char *_strchr(char *s, char c)
 {
-	int i, r = 0;
+	int i;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
