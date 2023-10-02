@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+  * _atoi - atoi
+  * @s: char
+  * Return: atoi
+  */
 int _atoi(char *s)
 {
 	unsigned int num = 0;
