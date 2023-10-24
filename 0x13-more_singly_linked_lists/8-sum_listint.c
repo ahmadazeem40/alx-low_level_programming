@@ -5,7 +5,7 @@
  * @head: first node
  * Return: sum of nodes
  */
-listint_t sum_listint(listint_t *head)
+int sum_listint(listint_t *head)
 {
 	int sum = 0;
 
