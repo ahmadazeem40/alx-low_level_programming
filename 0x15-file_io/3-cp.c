@@ -18,7 +18,7 @@ int main(int ac, char **av)
 	ssize_t b;
 	char buf[READ_BUF_SIZE];
 
-	if (ac != 30)
+	if (ac != 3)
 		dprintf(STDERR_FILENO, USAGE), exit(97);
 	from_fd = open(av[1], O_RDONLY);
 	if (from_fd == -1)
